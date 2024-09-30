@@ -1,56 +1,61 @@
 import { HumanMessage, SystemMessage } from "@langchain/core/messages";
+import { END, START } from "@langchain/langgraph";
 import { buildAgentNode } from "./agent";
-import { loadMultipleDocuments } from "./documentLoader/loadMultipleDocuments";
 import { gpt4o } from "./llm";
+import { buildToolNode } from "./tool";
 import { buildJobReporterTool } from "./tools/reporter";
 import {
   agentConditionalEdge,
   buildWorkflow,
   EDGE_INSTRUCTIONS,
 } from "./workflow";
-import { END, START } from "@langchain/langgraph";
-import { buildToolNode } from "./tool";
 
-import placeholderTest from "./documentTest/placeholder-presence";
 import mpsiCodeTest from "./documentTest/appropriate-mpsi-code";
+import placeholderTest from "./documentTest/placeholder-presence";
+import type { TestManager } from "./testManager";
 
 const tests = [placeholderTest, mpsiCodeTest];
 
-export const buildTestWorkflow = async () => {
-  const preCompileWorkflow = buildWorkflow();
+const initialSystemMessage =
+  new SystemMessage(`You are a finance manager in a Singapore government agency helping to perform checks on procurement documents before they are signed off. The document submitted can include:
 
-  for (let i = 0; i < tests.length; i++) {
-    const test = tests[i];
-    // TODO test for repeated test names
-    const testNodeName = `${test.name}-agent-node`;
-    const testToolNodeName = `${test.name}-tool-node`;
-    const tool = buildJobReporterTool(test.name);
+- GSF (specification document)
+- Evaluation scoring metrics
+
+You will be testing the document against several criteria. With each test, you will evaluate the document and provide a report if the test is passed, failed, skipped or issue an warning if the test is inconclusive and requires manual review.
+`);
+
+export const executeParallelWorkflows = async (
+  initialUserMessage: string,
+  testManager: TestManager
+) => {
+  const workflowExecutionPromises = tests.map(async (test) => {
+    const tool = buildJobReporterTool(test.name, testManager);
     const testAgentNode = await buildAgentNode({
       llm: gpt4o,
       tools: [tool],
       systemMessage: test.systemMessage,
-      name: testNodeName,
+      name: "test-agent-node",
     });
     const testToolNode = await buildToolNode({
       tools: [tool],
-      name: testToolNodeName,
+      name: "test-tool-node",
     });
-
-    preCompileWorkflow.addNode(testNodeName, testAgentNode);
-    preCompileWorkflow.addNode(testToolNodeName, testToolNode);
-    preCompileWorkflow.addEdge(START, testNodeName as any);
-    preCompileWorkflow.addEdge(testToolNodeName as any, END);
-    preCompileWorkflow.addConditionalEdges(
-      testNodeName as any,
-      agentConditionalEdge,
-      {
-        [EDGE_INSTRUCTIONS.CALL_TOOL]: testToolNodeName as any,
-        [EDGE_INSTRUCTIONS.PREFIX_TASK_COMPLETED]: END as any,
-        [EDGE_INSTRUCTIONS.PREFIX_TASK_FAILED]: END as any,
-        [EDGE_INSTRUCTIONS.CONTINUE]: testNodeName as any,
-      }
-    );
-  }
-
-  return preCompileWorkflow.compile();
+    const workflow = buildWorkflow()
+      .addNode("test-agent-node", testAgentNode)
+      .addNode("test-tool-node", testToolNode)
+      .addEdge(START, "test-agent-node")
+      .addEdge("test-tool-node", END)
+      .addConditionalEdges("test-agent-node", agentConditionalEdge, {
+        [EDGE_INSTRUCTIONS.CALL_TOOL]: "test-tool-node",
+        [EDGE_INSTRUCTIONS.PREFIX_TASK_COMPLETED]: END,
+        [EDGE_INSTRUCTIONS.PREFIX_TASK_FAILED]: END,
+        [EDGE_INSTRUCTIONS.CONTINUE]: "test-agent-node",
+      })
+      .compile();
+    return workflow.invoke({
+      messages: [initialSystemMessage, new HumanMessage(initialUserMessage)],
+    });
+  });
+  return Promise.all(workflowExecutionPromises);
 };

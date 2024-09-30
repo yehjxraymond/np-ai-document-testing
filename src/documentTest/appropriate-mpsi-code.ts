@@ -17,6 +17,8 @@ Report status:
 - status: "failure" if there are MPSI code that are obviously not appropriate for the requirement or if there are missing MPSI codes
 - status: "warning" if you are unsure if the user has assigned the appropriate MPSI code or if the code is borderline and needs manual review (add comments or clarifying questions)
 
+* There is no need to file observations for appropriately assigned MPSI codes.
+
 Steps:
 
 - Use the tool "job-reporter" to report the status, remarks and observations of the test after analyzing the document directly.

@@ -1,7 +1,8 @@
 import { DynamicStructuredTool } from "@langchain/core/tools";
 import { z } from "zod";
+import type { TestManager } from "../testManager";
 
-export const buildJobReporterTool = (testName: string) =>
+export const buildJobReporterTool = (testName: string, testManager: TestManager) =>
   new DynamicStructuredTool({
     verboseParsingErrors: true,
     name: "job-reporter",
@@ -32,10 +33,7 @@ export const buildJobReporterTool = (testName: string) =>
         .optional(),
     }),
     func: async ({ status, remarks, observations }) => {
-      console.log(`=============== Test: ${testName} ===============`);
-      console.log(`Status: ${status}`);
-      console.log(`Remarks: ${remarks}`);
-      console.log(`Observations: ${JSON.stringify(observations, null, 2)}`);
+      testManager.reportTest({ id: testName, status, remarks, observations });
       return { success: true };
     },
   });
