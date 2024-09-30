@@ -1,0 +1,1744 @@
+// Bun Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`loadMultipleDocuments should load multiple documents 1`] = `
+[
+  {
+    "content": 
+"GeBIZ Specification Form (GSF)
+
+
+
+
+
+NP’s Reference No.
+
+(Transaction Number):
+
+FY23/DST/052x/RFQ
+
+
+
+A. 	Instructions for Suppliers:
+
+
+
+Important: 
+
+This GSF is to be attached to the GeBIZ response. Suppliers have to fill in all relevant parts (A, B and C) of this document.  If GSF is not submitted, your bid may be disqualified.
+
+
+
+Name of Company:
+
+
+
+Name of Contact Person:
+
+
+
+Email address:
+
+
+
+Contact no.:
+
+
+
+
+
+
+
+Additional Terms and Conditions
+
+
+
+1. Overseas Suppliers
+
+
+
+All overseas suppliers shall quote for CIF (Cost, Insurance & Freight) for equipment purchases and all costs till delivery to Ngee Ann Polytechnic or otherwise stated in the specifications.
+
+
+
+2. Acceptance of Quotation
+
+
+
+The Polytechnic does not bind itself to accept the lowest, the whole or any quotation. It also reserves the right to award by item, or part thereof, or in whole unless otherwise stated in the specifications. The price quoted for the items shall be deemed valid irrespective of whether this quotation is accepted in part or in whole. The supplier shall allow for this in the quotation price. 
+
+
+
+3. Period Contracts
+
+
+
+For Period Contracts, the quantities indicated are estimates and Ngee Ann Polytechnic is not obliged to fulfill the total amount.
+
+
+
+4. Termination of Contract
+
+
+
+The Polytechnic shall also have the right to terminate the Contract by giving 1 month's notice in writing unless stated otherwise in the specifications; and the Supplier shall have no claim for any damages or compensation. 
+
+
+
+5. Payment
+
+
+
+The successful Supplier(s), who is/are registered with Singapore’s Accounting & Corporate Regulatory Authority (ACRA), shall submit invoices electronically online via the Vendors@Gov portal (www.vendors.gov.sg).  The successful Supplier(s) shall register with Vendors@Gov to create a vendor account.  The Polytechnic will use the bank account details and email address registered with Vendors@Gov for payment and issuance of e-remittance advice.  Payment will be made via GIRO.  The successful Supplier(s) shall update any changes in the vendor details within Vendors@Gov.  For assistance, please visit the Vendors@Gov main page – https://www.vendors.gov.sg.
+
+
+
+6. Terms and conditions for Data Disclosure
+
+
+
+Please refer to Annex A.
+
+
+
+
+
+B.  Specifications & Compliance Schedule 
+
+* For items not ticked ☑, we may assume that supplier cannot meet this particular specification.
+
+
+
+
+
+The Polytechnic classifies the specifications using the codes ‘M’, ‘P’, ‘S’ and ‘I’ which are defined as follows:
+
+
+
+Code
+
+Definition
+
+M – Mandatory Requirement
+
+Supplier who does not comply with the necessary mandatory requirements will not be shortlisted for further evaluation. Alternatives are not accepted against mandatory requirements.
+
+
+
+If non-compliant with the mandatory requirements, will be disqualified.
+
+P – Primary Requirement
+
+The primary requirements refer to the most important specifications. Supplier must meet the primary requirements or propose alternative that satisfy the primary requirements. 
+
+
+
+Where supplier does not propose alternatives to the primary specifications, the supplier’s submission will be disqualified.
+
+S – Secondary Requirement
+
+The secondary requirements refer to what is preferable and desirable to have.
+
+I – Information for contractor to note
+
+Supplier does not need to fill in the ‘compliance’ column for these items.
+
+
+
+The Supplier is to submit the compliance in the ‘Compliance’ column in the Table below by marking:
+
+‘Y’ for Complied with; and
+
+‘N’ for Unable to Comply
+
+
+
+
+
+General Terms and Conditions
+
+
+
+To be filled in by supplier
+
+Specifications:
+
+Code
+
+M/P/S/I
+
+Compliance*
+
+Remarks
+
+Yes
+
+No
+
+1.
+
+Acceptance of Quote
+
+This quotation shall be awarded in whole (Item 1, 2 and 3) in the GVT(T) 23003 RPA Bulk Tender to a Single Supplier who meets ALL our requirements specified in this Request for Quote (RFQ). Ngee Ann Polytechnic (hereinafter called “Polytechnic” or “NP”) is not obliged to accept the lowest or any quotation.
+
+
+
+The Supplier shall abide by all the Terms and Conditions in the Bulk Tender unless otherwise stated in this specification.
+
+
+
+M
+
+
+
+
+
+
+
+2.1
+
+Contact Person
+
+Ms. Rachel Kay
+
+(Email: Rachel_KAY@np.edu.sg, Tel: 6460 6437)
+
+
+
+Secondary Contact Person
+
+Dr. Kim Chee Wee
+
+(Email: KIM_Chee_Wee@np.edu.sg, Tel: 6460 7885)
+
+
+
+I
+
+
+
+
+
+For information only.
+
+2.2
+
+Confidentiality
+
+All data or information supplied by the Polytechnic for the purpose of the project shall be and remain the property of the Polytechnic. 
+
+The Supplier shall treat as confidential all information contained in this RFQ and obtained in subsequent communications with the Polytechnic. The Supplier shall not, without NP’s prior written consent, refer to this project or any information or data obtained during this project in any media release or public announcements.
+
+The Supplier shall not reproduce or otherwise use these materials in any way without the express written permission of the Polytechnic.
+
+
+
+The Supplier shall adhere to the Terms and Conditions for Data Disclosure. Please refer to Annex A.
+
+
+
+M
+
+
+
+
+
+
+
+3.
+
+RFQ Submissions
+
+Supplier is responsible for accurate and coherent submissions. Suppliers can amend their submissions in GeBIZ before the closing date.  Incomplete, inaccurate and incoherent submissions may be considered invalid.
+
+
+
+Suppliers shall use the submission templates/format provided by the Polytechnic in this RFQ.
+
+
+
+The Supplier shall submit their proposals in the following format:
+
+Section B - Compliance table.
+
+Section C - Price schedule, unit price and the total price for each item.
+
+Main contact person(s) and contact number for the project. 
+
+Project Proposal & Schedule of Works.
+
+
+
+M
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4.1
+
+Delivery
+
+The Supplier shall carry out and complete the supply, works and / or services in accordance with the directions and to the satisfaction of the Polytechnic. Supply, works and/or services not accomplished within the promised date will be treated as cancelled unless otherwise agreed. The Polytechnic will employ others to carry out the supply, works and / or services and have the additional cost borne by the Supplier. 
+
+
+
+The Supplier is required to complete and commission the awarded works within 6 months after the Purchase Order is issued.
+
+
+
+M
+
+
+
+
+
+
+
+5.2
+
+Charges & Payment
+
+Payments shall be paid at the following milestones within thirty (30) days upon receipt of invoice or any other documents required by the Polytechnic from the Supplier for payment purposes.
+
+
+
+Item 1: Professional Services for UiPath Automation Cloud Setup
+
+
+
+Milestone
+
+% of Item Price
+
+% Cumulative Total
+
+User Acceptance Sign-Off
+
+90
+
+90
+
+Warranty Expiry
+
+15
+
+100
+
+
+
+Item 2: Professional Services for RPA Solution Conversion
+
+
+
+Preferred Payment Terms:
+
+
+
+Milestone
+
+% of Item Price
+
+% Cumulative Total
+
+Design Sign-Off
+
+30
+
+30
+
+User Acceptance Sign-Off
+
+65
+
+90
+
+Warranty Expiry
+
+15
+
+100
+
+
+
+Optional Item 3: Professional Services for RPA Solution Design, Development & Implementation
+
+
+
+Preferred Payment Terms:
+
+
+
+
+
+
+
+Milestone
+
+% of Item Price
+
+% Cumulative Total
+
+Design Sign-Off
+
+30
+
+30
+
+User Acceptance Sign-Off
+
+60
+
+90
+
+Warranty Expiry
+
+10
+
+100
+
+
+
+M
+
+
+
+
+
+
+
+5.3
+
+Damages for Delay
+
+
+
+In the event of any incident of delay in the delivery/supply of the Products and/or Services, the Polytechnic may, without prejudice to any other claim, at its own absolute discretion:
+
+
+
+require the Supplier to pay and the Supplier shall pay liquidated damages at the rate of one tenth of a percent (0.1%) of the price of the Products and/or Services for each day (including Sundays and Public Holidays) or part thereof delayed up to a cumulative maximum of ten percent (10%); or
+
+
+
+to obtain the Products and/or Services from any other source/s and any increased costs (including administrative costs) incurred by the Polytechnic in respect thereof shall be borne by the Supplier.
+
+            
+
+Where applicable, any incomplete delivery and/or installation by the Supplier shall also be regarded as non-delivery/supply resulting in delay.
+
+All monies due to the Polytechnic under the above clause shall be paid to the Polytechnic in Singapore Dollars not later than thirty (30) calendar days from the date of issue of the Polytechnic's written notification to the Supplier informing the Supplier of the total sum payable. If the Supplier fails to pay the said damages, the Polytechnic may deduct the amount due from any monies due or which may become due from the Polytechnic to the Supplier pursuant to this Contract or under any other contracts with the Supplier or recover the same as a debt due from the Supplier.
+
+
+
+The Polytechnic reserves the right to charge interest for any delayed payment at the rate of five and a half percent (5.5%) per annum.
+
+
+
+M
+
+
+
+
+
+
+
+6.
+
+General Information and Site Rules
+
+Unless otherwise specified, all works shall be performed during NP’s office hours (Mon-Fri, 8:30am to 6:00pm). The cutover of any affected services shall be scheduled during non-peak hours (e.g. after office hours).
+
+The Supplier shall ensure that the safety of the staff and students of the polytechnic is not compromised at all times while work is being carried out.
+
+The Supplier to take note that only certified staff shall be deployed on site to ensure all activities are being carried out in a safe manner.
+
+The Supplier shall ensure that all workers deployed on site must possess the necessary work permit and comply with all safety rules and in company issued uniform (if applicable) whenever they are carrying out their works.
+
+The Supplier shall keep the work site clean and tidy, make good to restore condition, if needed, to the satisfaction of the Polytechnic.
+
+Any damages caused to any facilities or works due to the carelessness or negligence of the Supplier shall be made good to its original condition at no additional cost to the Polytechnic.
+
+
+
+M
+
+
+
+
+
+
+
+7.
+
+Warranty Support
+
+
+
+Refer to GVT_T_23003 Part 1 Section B Annex 1
+
+
+
+M
+
+
+
+
+
+
+
+
+
+
+
+
+
+Item 1 description:
+
+Professional Services for UiPath Automation Cloud Setup
+
+
+
+
+
+To be filled in by supplier
+
+Specifications:
+
+Code
+
+Compliance*
+
+Remarks
+
+M/P/S/I
+
+Yes
+
+No
+
+a.
+
+The Supplier shall work with NP team to set up and deploy UiPath Automation Cloud for unattended Robotic Process Automation (RPA) operations at the enterprise level.
+
+
+
+Supplier to submit a proposal with plans, steps, advice, timelines, effort (man-days) and man-day rates for the professional services to deploy and set up UiPath Automation Cloud for the scope of work listed below.
+
+
+
+M
+
+
+
+
+
+
+
+b.
+
+The Supplier shall provide advisory and guidance for the
+
+
+
+deployment of UiPath Automation Cloud such as the technical requirements and pre-requisites, and
+
+
+
+setup of unattended RPA operations at the enterprise level with best practices on governance, security, and operational efficiency.
+
+
+
+M
+
+
+
+
+
+
+
+c.
+
+The Supplier shall assist the NP team in providing required information to perform cloud risk assessment in identifying and mitigating risks.
+
+
+
+M
+
+
+
+
+
+
+
+d.
+
+The Supplier shall configure and deploy UiPath Automation Cloud with multi-tenant setup to provide the production and non-production environments.
+
+
+
+M
+
+
+
+
+
+
+
+e.
+
+The Supplier shall set up UiPath Automation Cloud for NP’s RPA operations with appropriate configurations, such as
+
+
+
+creating custom roles and permissions,
+
+setting up single sign-on using Azure Active Directory,
+
+configuring licenses, and
+
+installing and configuring the unattended bots.
+
+
+
+M
+
+
+
+
+
+
+
+f.
+
+The Supplier shall ensure the deployment complies with Government’s IT requirements, and NP’s IT policies and requirements. 
+
+
+
+M
+
+
+
+
+
+
+
+g.
+
+The Supplier shall prepare knowledge transfer materials and conduct a knowledge transfer session with NP administrators.
+
+
+
+M
+
+
+
+
+
+
+
+h.
+
+The Supplier shall provide service during the warranty period to configure, modify and/or advise the setup should there be any updates of regulatory requirements that affect the operations or fixes related to security breaches.
+
+
+
+M
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Item 2 description:
+
+Professional Services for RPA Solution Conversion
+
+
+
+
+
+To be filled in by supplier
+
+Specifications:
+
+Code
+
+Compliance*
+
+Remarks
+
+M/P/S/I
+
+Yes
+
+No
+
+a.
+
+Professional Services to convert 2 existing attended RPA UiPath solutions into unattended RPA UiPath solutions.
+
+
+
+Scope of work for these RPA solutions shall be as listed below. (Refer to GVT(T)-23003 - Part 2 Section B Requirement Specifications for Supply of Robotic Process Automation Software and Services– Section 5.)
+
+
+
+Requirement Study, 
+
+Design and Development, 
+
+Setting up of reports, 
+
+System Integration Tests (SIT),
+
+User Acceptance Tests (UAT), 
+
+Transferring of knowledge, and
+
+Training. 
+
+
+
+Supplier shall work with NP Process Owners to review the processes and optimize them for unattended automations for use with UiPath Automation Cloud. 
+
+
+
+Supplier to submit a proposal for the professional services to convert the RPA solutions for each process listed below.
+
+
+
+M
+
+
+
+
+
+
+
+b.
+
+Conversion of RPA solution for “Process Academic Awards” process. 
+
+
+
+The existing solution consists of 5 RPA UiPath bots working in attended mode to perform the following actions. 
+
+
+
+generating award nomination list from NPal2 CS
+
+performing nomination validations checks from various queried reports from NPal2 CS,
+
+emailing the nomination lists to schools for moderation and confirmation,
+
+data processing of returns from schools, and
+
+performing awardees assignment in NPal2 CS with final checks.
+
+ NPal2 CS is NP’s in-house Student Information System based on PeopleSoft Enterprise Solution.
+
+
+
+The Supplier shall convert the existing bots to work in unattended mode with UiPath Automation Cloud.
+
+
+
+M
+
+
+
+
+
+
+
+c.
+
+Conversion of RPA solution for “XXX” process. 
+
+
+
+M
+
+
+
+
+
+
+
+
+
+
+
+Optional Item 3 description:
+
+Professional Services for RPA Design, Development & Implementation
+
+
+
+To be filled in by supplier
+
+Specifications:
+
+Code
+
+Compliance*
+
+Remarks
+
+M/P/S/I
+
+Yes
+
+No
+
+a.
+
+The Polytechnic reserves the right to exercise the optional item for the scope of work listed below at any point during the contract period. 
+
+
+
+Up to 15 man-days for Professional Services to design, develop and implement RPA UiPath solutions.
+
+These man-days may be exercised partially by raising service requests (SR) and the man-day rates shall be valid during the contract period.
+
+Scope work for the RPA solutions shall follow that for Item 2a as stated in the Bulk Tender.(Refer to GVT(T)-23003 - Part 2 Section B Requirement Specifications for Supply of Robotic Process Automation Software and Services– Section 5.)
+
+The Supplier shall provide a cost schedule by man-day rate for the SR that contains the specifications of the RPA solutions to be developed.
+
+The Supplier shall ensure that all SRs are properly tracked at the point of initiation to implementation and acceptance.
+
+The Supplier shall maintain a SR Log which will provide the statistics and details of current and past SRs raised. Upon the request of the Polytechnic, the Supplier shall provide the statistics and details of SR raised. The Polytechnic may conduct periodic audits on actual man-days incurred for SRs rendered.
+
+The Supplier shall ensure that each SR is successfully implemented according to agreed schedule based on agreed man-day effort. In the event that the Supplier cannot meet the pre-agreed schedule, any additional costs incurred for the completion of the SR shall be borne by the Supplier.
+
+The SR will only be considered as completed after its acceptance and warranty have been signed off by the user(s) and changes are successfully deployed to production environment and when all relevant documentation is prepared/updated and accepted by the Polytechnic.
+
+
+
+M
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C.  Price Schedule (To be filled in by supplier) 
+
+The prices quoted must be GST exclusive and correspond to the figures entered in the GeBIZ response. It is compulsory to quote for all the items below.
+
+
+
+Item Description
+
+Quantity
+
+Unit Price (S$)
+
+Total Price (S$)
+
+Item 1 - Professional Services for UiPath Automation Cloud Setup
+
+
+
+1 lot
+
+
+
+
+
+Item 2 - Professional Services for RPA Solution Conversion
+
+1 lot
+
+
+
+
+
+Optional Item 3 - Professional Services for RPA Design, Development & Implementation (up to 20 man-days)
+
+20 man-days
+
+
+
+(man-day rate)
+
+
+
+Grand Total
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Annex A
+
+
+
+Terms and Conditions for Data Disclosure
+
+
+
+1. Security
+
+
+
+The contractor shall take all reasonable measures to ensure that personal data held in connection with this agreement is protected against loss, and against unauthorised access, use, modification, disclosure or other misuse in accordance with the specifications set out in the Gebiz Specification Form (GSF) , and that only authorised personnel have access to the data.
+
+
+
+The contractor shall not vary the specifications set out in GSF without the prior written approval of the agency.
+
+
+
+Explanation :
+
+A schedule setting out the required specifications may be attached. The nature and extent of these will vary depending on the circumstances of the contract. More stringent controls might be needed where sensitive personal data is involved or where the contractor has direct access to databases held by the agency.
+
+
+
+2. Use
+
+
+
+The contractor shall use any personal data held in connection with this agreement only for the purposes of fulfilling its obligations under this agreement.
+
+
+
+3. Disclosure
+
+
+
+The contractor shall not disclose any personal data obtained in connection with this agreement without the written authority of the agency. The contractor shall immediately notify the agency when it becomes aware that a disclosure of personal data may be required by law.
+
+
+
+Explanation :
+
+Although the contractor may have a legal duty to disclose personal data, the contractor should inform the agency of any request for information as early as possible. This will enable the agency to obtain any relevant advice as to the legality of the request and to intervene in any proceedings before any disclosure is made.
+
+
+
+4. Transfer of personal data outside Singapore
+
+The contractor shall not transfer personal data held in connection with this agreement outside Singapore, or allow parties outside Singapore to have access to it, without the prior approval of the agency.
+
+
+
+Explanation :
+
+While this form of disclosure is covered by clause 3 (on Disclosure), there may be value in stating this restriction specifically because of the high risk associated with trans-border flows of data. Generally, once data goes beyond Singapore’s borders, it may be either impractical or impossible for an agency to prevent any unauthorised use or disclosure of that data.
+
+
+
+5. Employee awareness of data protection requirements and undertakings
+
+The contractor shall ensure that any employee of the contractor or any subcontractor requiring access to any personal data held in conjunction with this agreement makes an undertaking in writing not to access, use, disclose or retain personal data except in performing their duties of employment and is informed that failure to comply with this undertaking may be a criminal offence and may also lead the contractor to take disciplinary action against the employee.
+
+
+
+6. Advising the agency of any breach of the data protection clause
+
+The contractor shall in respect of any personal data held in connection with this agreement immediately notify the agency where the contractor becomes aware of a breach of clauses [Clause 1 to 5 above] by itself or any subcontractor.
+
+
+
+
+
+
+
+Explanation :
+
+The contractor has an obligation to immediately notify the agency where it becomes aware that, through one of its employees, it has breached the contractual provisions relating to security, unauthorised disclosure and unauthorised use, and also where an employee has had access to personal information without having signed the necessary undertaking.
+
+
+
+7. Reasonable requests, directions and guidelines
+
+The contractor shall in respect of any personal data held in connection with this agreement cooperate with any reasonable requests, directions or guidelines of the agency [or agency’s delegate] arising in connection with the handling of personal data.
+
+
+
+8. Ensuring clauses have effect after the contract has ended
+
+Clause 1 to 7 shall continue to have effect after the termination or completion of the agreement.
+
+
+
+Explanation :
+
+Even though contracts should normally provide for all personal data to be returned at the end of the agreement or be destroyed, it is wise to ensure that, should any personal data inadvertently remain with the contractor, the protection that existed during the agreement continues to have effect after the agreement has ended. In addition, where a breach comes to light after the agreement has ended, the relevant clauses should also continue to apply.
+
+
+
+9. Sub-contracting
+
+
+
+In an event that sub-contracting is necessary, written authority from Ngee Ann Polytechnic has to be obtained before data can be disclosed. There should be an agreement between the contractor and sub-contractor to ensure that protection of personal data.
+
+
+
+10. Secure erasure/destruction of data upon completion of the contract
+
+
+
+Upon completion of the contract, the Contractor shall return all materials received or generated under this Contract (including approved photocopied materials) and perform secure erasure/destruction of data. 
+
+"
+,
+    "file": "fixtures/gsf/rpa-without-comments.docx",
+  },
+  {
+    "content": 
+" 
+PS037-RFQ  Updated: 21 April 2023 
+                    Official (Closed) - Non Sensitive 
+GeBIZ Specification Form (GSF) 
+ 
+ 
+NP’s Reference No. 
+(Transaction Number): 
+FY23/DST/052x/RFQ 
+ 
+A.  Instructions for Suppliers: 
+ 
+Important:  
+This GSF is to be attached to the GeBIZ response. Suppliers have to fill in all relevant parts (A, B and C) of this 
+document.  If GSF is not submitted, your bid may be disqualified. 
+ 
+Name of Company:  
+Name of Contact Person:  
+Email address:  
+Contact no.:  
+ 
+ 
+Additional Terms and Conditions 
+ 
+1. Overseas Suppliers 
+ 
+All overseas suppliers shall quote for CIF (Cost, Insurance & Freight) for equipment purchases and all 
+costs till delivery to Ngee Ann Polytechnic or otherwise stated in the specifications. 
+ 
+2. Acceptance of Quotation 
+ 
+The Polytechnic does not bind itself to accept the lowest, the whole or any quotation. It also reserves 
+the right to award by item, or part thereof, or in whole unless otherwise stated in the specifications. The 
+price quoted for the items shall be deemed valid irrespective of whether this quotation is accepted in 
+part or in whole. The supplier shall allow for this in the quotation price.  
+ 
+3. Period Contracts 
+ 
+For Period Contracts, the quantities indicated are estimates and Ngee Ann Polytechnic is not obliged 
+to fulfill the total amount. 
+ 
+4. Termination of Contract 
+ 
+The Polytechnic shall also have the right to terminate the Contract by giving 1 month's notice in writing 
+unless stated otherwise in the specifications; and the Supplier shall have no claim for any damages or 
+compensation.  
+ 
+5. Payment 
+ 
+The successful Supplier(s), who is/are registered with Singapore’s Accounting & Corporate Regulatory 
+Authority  (ACRA),  shall  submit  invoices  electronically  online  via  the  Vendors@Gov  portal 
+(www.vendors.gov.sg).  The successful Supplier(s) shall register with Vendors@Gov to create a vendor 
+account.  The  Polytechnic  will  use  the  bank  account  details  and  email  address  registered  with 
+Vendors@Gov for payment and issuance of e-remittance advice.  Payment will be made via GIRO.  The 
+successful Supplier(s) shall update any changes in the vendor details within Vendors@Gov.  For 
+assistance, please visit the Vendors@Gov main page – https://www.vendors.gov.sg. 
+ 
+6. Terms and conditions for Data Disclosure 
+ 
+Please refer to Annex A. 
+ 
+ 
+
+ 
+PS037-RFQ  Updated: 21 April 2023 
+                    Official (Closed) - Non Sensitive 
+B.  Specifications & Compliance Schedule  
+* For items not ticked R, we may assume that supplier cannot meet this particular specification. 
+ 
+ 
+The Polytechnic classifies the specifications using the codes ‘M’, ‘P’, ‘S’ and ‘I’ which are defined as follows: 
+ 
+Code Definition 
+M – Mandatory 
+Requirement 
+Supplier who does not comply with the necessary mandatory requirements will not be 
+shortlisted  for  further  evaluation.  Alternatives  are  not  accepted  against  mandatory 
+requirements. 
+ 
+If non-compliant with the mandatory requirements, will be disqualified. 
+P – Primary 
+Requirement 
+The  primary  requirements  refer  to  the  most  important  specifications.  Supplier  must 
+meet  the  primary  requirements or propose  alternative  that  satisfy  the  primary 
+requirements.  
+ 
+Where  supplier  does  not  propose  alternatives  to  the  primary  specifications,  the 
+supplier’s submission will be disqualified. 
+S – Secondary 
+Requirement 
+The secondary requirements refer to what is preferable and desirable to have. 
+I – Information for 
+contractor to 
+note 
+Supplier does not need to fill in the ‘compliance’ column for these items. 
+ 
+The Supplier is to submit the compliance in the ‘Compliance’ column in the Table below by marking: 
+- ‘Y’ for Complied with; and 
+- ‘N’ for Unable to Comply 
+ 
+  
+
+ 
+PS037-RFQ  Updated: 21 April 2023 
+                    Official (Closed) - Non Sensitive 
+General Terms and Conditions 
+ To be filled in by supplier 
+Specifications: Code 
+M/P/S/I 
+Compliance* Remarks 
+Yes No 
+1. Acceptance of Quote 
+This quotation shall be awarded in whole (Item 1, 2 and 3) 
+in  the  GVT(T) 23003 RPA  Bulk  Tender to  a  Single  Supplier 
+who meets ALL our requirements specified in this Request 
+for Quote (RFQ). Ngee Ann Polytechnic (hereinafter called 
+“Polytechnic” or “NP”) is not obliged to accept the lowest 
+or any quotation. 
+ 
+The Supplier shall abide by all the Terms and Conditions in 
+the    Bulk    Tender    unless    otherwise    stated    in    this 
+specification. 
+ 
+M    
+2.1 Contact Person 
+Ms. Rachel Kay 
+(Email: Rachel_KAY@np.edu.sg, Tel: 6460 6437) 
+ 
+Secondary Contact Person 
+Dr. Kim Chee Wee 
+(Email: KIM_Chee_Wee@np.edu.sg, Tel: 6460 7885) 
+ 
+I   For 
+information 
+only. 
+2.2 Confidentiality 
+a) All data or information supplied by the Polytechnic for 
+the  purpose  of  the  project  shall  be  and  remain  the 
+property of the Polytechnic.  
+b) The Supplier shall treat as confidential all information 
+contained  in  this  RFQ  and  obtained  in  subsequent 
+communications  with  the  Polytechnic.  The  Supplier 
+shall not, without NP’s prior written consent, refer to 
+this project or any information or data obtained during 
+this    project    in    any    media    release    or    public 
+announcements. 
+c) The Supplier shall not reproduce or otherwise use these 
+materials  in  any  way  without  the  express  written 
+permission of the Polytechnic. 
+ 
+The Supplier shall adhere to the Terms and Conditions for 
+Data Disclosure. Please refer to Annex A. 
+ 
+M    
+
+ 
+PS037-RFQ  Updated: 21 April 2023 
+                    Official (Closed) - Non Sensitive 
+3. RFQ Submissions 
+Supplier is responsible for accurate and coherent 
+submissions. Suppliers can amend their submissions in 
+GeBIZ before the closing date.  Incomplete, inaccurate and 
+incoherent submissions may be considered invalid. 
+ 
+Suppliers   shall   use   the   submission   templates/format 
+provided by the Polytechnic in this RFQ. 
+ 
+The  Supplier  shall  submit  their  proposals  in  the  following 
+format: 
+a) Section B - Compliance table. 
+b) Section  C - Price  schedule,  unit  price  and the  total 
+price for each item. 
+c) Main  contact  person(s)  and contact  number  for  the 
+project.  
+d) Project Proposal & Schedule of Works. 
+ 
+M    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+4.1 Delivery 
+The Supplier shall carry out and complete the supply, works 
+and / or services in accordance with the directions and to 
+the  satisfaction  of  the  Polytechnic.  Supply,  works  and/or 
+services not accomplished within the promised date will be 
+treated   as   cancelled unless   otherwise   agreed.   The 
+Polytechnic  will  employ  others  to  carry  out  the  supply, 
+works and / or services and have the additional cost borne 
+by the Supplier.  
+ 
+The  Supplier  is  required  to  complete  and  commission  the 
+awarded works within 6 months after the Purchase Order is 
+issued. 
+ 
+M    
+5.2 Charges & Payment 
+Payments  shall  be  paid  at  the  following  milestones  within 
+thirty  (30)  days  upon  receipt  of  invoice  or  any  other 
+documents  required  by  the  Polytechnic  from  the  Supplier 
+for payment purposes. 
+ 
+Item 1: Professional Services for UiPath Automation Cloud 
+Setup 
+ 
+Milestone % of Item 
+Price 
+% Cumulative 
+Total 
+User Acceptance Sign-Off 90 90 
+Warranty Expiry 15 100 
+ 
+Item 2: Professional Services for RPA Solution Conversion 
+ 
+Preferred Payment Terms: 
+ 
+Milestone % of Item 
+Price 
+% Cumulative 
+Total 
+Design Sign-Off 30 30 
+User Acceptance Sign-Off 65 90 
+Warranty Expiry 15 100 
+ 
+Optional Item 3: Professional Services for RPA Solution 
+Design, Development & Implementation 
+ 
+Preferred Payment Terms: 
+ 
+ 
+M    
+
+ 
+PS037-RFQ  Updated: 21 April 2023 
+                    Official (Closed) - Non Sensitive 
+ 
+Milestone % of Item 
+Price 
+% Cumulative 
+Total 
+Design Sign-Off 30 30 
+User Acceptance Sign-Off 60 90 
+Warranty Expiry 10 100 
+ 
+5.3 Damages for Delay 
+ 
+a) In   the   event   of   any   incident   of   delay   in   the 
+delivery/supply  of  the  Products  and/or  Services,  the 
+Polytechnic may, without prejudice to any other claim, 
+at its own absolute discretion: 
+ 
+(i) require the Supplier to pay and the Supplier shall 
+pay liquidated damages at the rate of one tenth 
+of  a  percent  (0.1%) of  the price of  the  Products 
+and/or  Services for  each  day  (including  Sundays 
+and Public Holidays) or part thereof delayed up to 
+a cumulative maximum of ten percent (10%); or 
+ 
+(ii) to  obtain  the  Products  and/or  Services  from  any 
+other source/s and any increased costs (including 
+administrative costs) incurred by the Polytechnic 
+in respect thereof shall be borne by the Supplier. 
+             
+Where  applicable,  any  incomplete  delivery  and/or 
+installation  by  the  Supplier  shall  also  be  regarded  as 
+non-delivery/supply resulting in delay. 
+b) All  monies  due  to  the  Polytechnic  under  the  above 
+clause  shall  be  paid  to  the  Polytechnic  in  Singapore 
+Dollars not later than thirty (30) calendar days from the 
+date of issue of the Polytechnic's written notification to 
+the  Supplier  informing  the  Supplier of  the  total  sum 
+payable. If the Supplier fails to pay the said damages, 
+the Polytechnic may deduct the amount due from any 
+monies  due  or  which  may  become  due  from  the 
+Polytechnic to the Supplier pursuant to this Contract or 
+under any other contracts with the Supplier or recover 
+the same as a debt due from the Supplier. 
+ 
+c) The  Polytechnic  reserves  the  right  to  charge  interest 
+for any delayed payment at the rate of five and a half 
+percent (5.5%) per annum. 
+ 
+M    
+6. General Information and Site Rules 
+a) Unless   otherwise   specified,   all   works   shall   be 
+performed during NP’s office hours (Mon-Fri, 8:30am to 
+6:00pm). The cutover of any affected services shall be 
+scheduled  during  non-peak  hours  (e.g.  after  office 
+hours). 
+b) The  Supplier  shall  ensure  that  the  safety  of  the  staff 
+and students of the polytechnic is not compromised at 
+all times while work is being carried out. 
+c) The Supplier to take note that only certified staff shall 
+be  deployed  on  site  to  ensure  all  activities  are  being 
+carried out in a safe manner. 
+d) The Supplier shall ensure that all workers deployed on 
+site  must  possess  the  necessary  work  permit  and 
+comply  with  all  safety  rules  and  in  company  issued 
+uniform (if applicable) whenever they are carrying out 
+their works. 
+e) The  Supplier  shall  keep  the  work  site  clean  and  tidy, 
+make  good  to  restore  condition,  if  needed,  to  the 
+satisfaction of the Polytechnic. 
+M    
+
+ 
+PS037-RFQ  Updated: 21 April 2023 
+                    Official (Closed) - Non Sensitive 
+f) Any  damages  caused  to  any  facilities  or  works  due  to 
+the carelessness or negligence of the Supplier shall be 
+made good to its original condition at no additional cost 
+to the Polytechnic. 
+ 
+7. Warranty Support 
+ 
+Refer to GVT_T_23003 Part 1 Section B Annex 1 
+ 
+M    
+ 
+  
+
+ 
+PS037-RFQ  Updated: 21 April 2023 
+                    Official (Closed) - Non Sensitive 
+ 
+Item 1 description: 
+Professional Services for UiPath Automation Cloud Setup 
+ 
+ To be filled in by supplier 
+Specifications: Code Compliance* Remarks 
+M/P/S/I Yes No 
+a. 
+The Supplier shall work with NP team to set up and deploy UiPath 
+Automation Cloud for unattended Robotic Process Automation 
+(RPA) operations at the enterprise level. 
+ 
+Supplier to submit a proposal with plans, steps, advice, timelines, 
+effort (man-days) and man-day rates for the professional services 
+to deploy and set up UiPath Automation Cloud for the scope of 
+work listed below. 
+ 
+M    
+b. The Supplier shall provide advisory and guidance for the 
+ 
+• deployment of UiPath Automation Cloud such as the technical 
+requirements and pre-requisites, and 
+ 
+• setup of unattended RPA operations at the enterprise level 
+with best practices on governance, security, and operational 
+efficiency. 
+ 
+M    
+c. The Supplier shall assist the NP team in providing required 
+information to perform cloud risk assessment in identifying and 
+mitigating risks. 
+ 
+M    
+d. 
+The Supplier shall configure and deploy UiPath Automation Cloud 
+with multi-tenant setup to provide the production and non-
+production environments. 
+ 
+M    
+e. The Supplier shall set up UiPath Automation Cloud for NP’s RPA 
+operations with appropriate configurations, such as 
+ 
+• creating custom roles and permissions, 
+• setting up single sign-on using Azure Active Directory, 
+• configuring licenses, and 
+• installing and configuring the unattended bots. 
+ 
+M    
+f. The Supplier shall ensure the deployment complies with 
+Government’s IT requirements, and NP’s IT policies and 
+requirements.  
+ 
+M    
+g. 
+The Supplier shall prepare knowledge transfer materials and 
+conduct a knowledge transfer session with NP administrators. 
+ 
+M    
+h. The Supplier shall provide service during the warranty period to 
+configure, modify and/or advise the setup should there be any 
+updates of regulatory requirements that affect the operations or 
+fixes related to security breaches. 
+ 
+M    
+ 
+ 
+ 
+  
+
+ 
+PS037-RFQ  Updated: 21 April 2023 
+                    Official (Closed) - Non Sensitive 
+Item 2 description: 
+Professional Services for RPA Solution Conversion 
+ 
+ To be filled in by supplier 
+Specifications: Code Compliance* Remarks 
+M/P/S/I Yes No 
+a. Professional Services to convert 2 existing attended RPA UiPath 
+solutions into unattended RPA UiPath solutions. 
+ 
+Scope of work for these RPA solutions shall be as listed below. 
+(Refer to GVT(T)-23003 - Part 2 Section B Requirement 
+Specifications for Supply of Robotic Process Automation Software 
+and Services– Section 5.) 
+ 
+1) Requirement Study,  
+2) Design and Development,  
+3) Setting up of reports,  
+4) System Integration Tests (SIT), 
+5) User Acceptance Tests (UAT),  
+6) Transferring of knowledge, and 
+7) Training.  
+ 
+Supplier shall work with NP Process Owners to review the 
+processes and optimize them for unattended automations for use 
+with UiPath Automation Cloud.  
+ 
+Supplier to submit a proposal for the professional services to 
+convert the RPA solutions for each process listed below. 
+ 
+M    
+b. Conversion of RPA solution for “Process Academic Awards” 
+process.  
+ 
+The existing solution consists of 5 RPA UiPath bots working in 
+attended mode to perform the following actions.  
+ 
+- generating award nomination list from NPal2 CS 
+- performing nomination validations checks from various 
+queried reports from NPal2 CS, 
+- emailing the nomination lists to schools for moderation and 
+confirmation, 
+- data processing of returns from schools, and 
+- performing awardees assignment in NPal2 CS with final 
+checks. 
+  
+NPal2 CS is NP’s in-house Student Information System based on 
+PeopleSoft Enterprise Solution. 
+ 
+The Supplier shall convert the existing bots to work in unattended 
+mode with UiPath Automation Cloud. 
+ 
+M    
+c. Conversion of RPA solution for “XXX” process.  
+ 
+M    
+ 
+  
+
+ 
+PS037-RFQ  Updated: 21 April 2023 
+                    Official (Closed) - Non Sensitive 
+Optional Item 3 
+description: 
+Professional Services for RPA Design, Development & Implementation 
+ To be filled in by supplier 
+Specifications: Code Compliance* Remarks 
+M/P/S/I Yes No 
+a. The Polytechnic reserves the right to exercise the optional item for 
+the scope of work listed below at any point during the contract 
+period.  
+ 
+1) Up to 15 man-days for Professional Services to design, 
+develop and implement RPA UiPath solutions. 
+ 
+2) These man-days may be exercised partially by raising service 
+requests (SR) and the man-day rates shall be valid during the 
+contract period. 
+ 
+3) Scope work for the RPA solutions shall follow that for Item 2a 
+as stated in the Bulk Tender. 
+(Refer to GVT(T)-23003 - Part 2 Section B Requirement 
+Specifications for Supply of Robotic Process Automation 
+Software and Services– Section 5.) 
+ 
+4) The Supplier shall provide a cost schedule by man-day rate for 
+the SR that contains the specifications of the RPA solutions to 
+be developed. 
+ 
+5) The Supplier shall ensure that all SRs are properly tracked at 
+the point of initiation to implementation and acceptance. 
+ 
+6) The Supplier shall maintain a SR Log which will provide the 
+statistics and details of current and past SRs raised. Upon the 
+request of the Polytechnic, the Supplier shall provide the 
+statistics and details of SR raised. The Polytechnic may 
+conduct periodic audits on actual man-days incurred for SRs 
+rendered. 
+ 
+7) The Supplier shall ensure that each SR is successfully 
+implemented according to agreed schedule based on agreed 
+man-day effort. In the event that the Supplier cannot meet the 
+pre-agreed schedule, any additional costs incurred for the 
+completion of the SR shall be borne by the Supplier. 
+ 
+8) The SR will only be considered as completed after its 
+acceptance and warranty have been signed off by the user(s) 
+and changes are successfully deployed to production 
+environment and when all relevant documentation is 
+prepared/updated and accepted by the Polytechnic. 
+ 
+M    
+ 
+ 
+ 
+ 
+
+ 
+PS037-RFQ  Updated: 21 April 2023 
+                    Official (Closed) - Non Sensitive 
+C.  Price Schedule (To be filled in by supplier)  
+The prices quoted must be GST exclusive and correspond to the figures entered in the GeBIZ response. It is 
+compulsory to quote for all the items below. 
+ 
+Item Description Quantity Unit Price (S$) Total Price (S$) 
+Item 1 - Professional Services for 
+UiPath Automation Cloud Setup 
+ 
+1 lot   
+Item 2 - Professional Services for RPA 
+Solution Conversion 
+1 lot   
+Optional Item 3 - Professional Services 
+for RPA Design, Development & 
+Implementation  
+(up to 20 man-days) 
+20 man-
+days 
+ 
+(man-day rate) 
+ 
+Grand Total    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+PS037-RFQ  Updated: 21 April 2023 
+                    Official (Closed) - Non Sensitive 
+Annex A 
+ 
+Terms and Conditions for Data Disclosure 
+ 
+1. Security 
+ 
+The contractor shall take all reasonable measures to ensure that personal data held in connection with 
+this agreement is protected against loss, and against unauthorised access, use, modification, disclosure 
+or other misuse in accordance with the specifications set out in the Gebiz Specification Form (GSF) , 
+and that only authorised personnel have access to the data. 
+ 
+The contractor shall not vary the specifications set out in GSF without the prior written approval of the 
+agency. 
+ 
+Explanation : 
+A schedule setting out the required specifications may be attached. The nature and extent of these will 
+vary depending on the circumstances of the contract. More stringent controls might be needed where 
+sensitive personal data is involved or where the contractor has direct access to databases held by the 
+agency. 
+ 
+2. Use 
+ 
+The contractor shall use any personal data held in connection with this agreement only for the purposes 
+of fulfilling its obligations under this agreement. 
+ 
+3. Disclosure 
+ 
+The contractor shall not disclose any personal data obtained in connection with this agreement without 
+the written authority of the agency. The contractor shall immediately notify the agency when it becomes 
+aware that a disclosure of personal data may be required by law. 
+ 
+Explanation : 
+Although the contractor may have a legal duty to disclose personal data, the contractor should inform 
+the agency of any request for information as early as possible. This will enable the agency to obtain 
+any relevant advice as to the legality of the request and to intervene in any proceedings before any 
+disclosure is made. 
+ 
+4. Transfer of personal data outside Singapore 
+The  contractor  shall  not  transfer  personal  data  held  in  connection  with  this agreement  outside 
+Singapore, or allow parties outside Singapore to have access to it, without the prior approval of the 
+agency. 
+ 
+Explanation : 
+While this form of disclosure is covered by clause 3 (on Disclosure), there may be value in stating this 
+restriction specifically because of the high risk associated with trans-border flows of data. Generally, 
+once data goes beyond Singapore’s borders, it may be either impractical or impossible for an agency 
+to prevent any unauthorised use or disclosure of that data. 
+ 
+5. Employee awareness of data protection requirements and undertakings 
+The contractor shall ensure that any employee of the contractor or any subcontractor requiring access 
+to any personal data held in conjunction with this agreement makes an undertaking in writing not to 
+access, use, disclose or retain personal data except in performing their duties of employment and is 
+informed that failure to comply with this undertaking may be a criminal offence and may also lead the 
+contractor to take disciplinary action against the employee. 
+ 
+6. Advising the agency of any breach of the data protection clause 
+The contractor shall in respect of any personal data held in connection with this agreement immediately 
+notify the agency where the contractor becomes aware of a breach of clauses [Clause 1 to 5 above] by 
+itself or any subcontractor. 
+ 
+ 
+ 
+
+ 
+PS037-RFQ  Updated: 21 April 2023 
+                    Official (Closed) - Non Sensitive 
+Explanation : 
+The contractor has an obligation to immediately notify the agency where it becomes aware that, through 
+one of its employees, it has breached the contractual provisions relating to security, unauthorised 
+disclosure and unauthorised use, and also where an employee has had access to personal information 
+without having signed the necessary undertaking. 
+ 
+7. Reasonable requests, directions and guidelines 
+The contractor shall in respect of any personal data held in connection with this agreement cooperate 
+with any reasonable requests, directions or guidelines of the agency [or agency’s delegate] arising in 
+connection with the handling of personal data. 
+ 
+8. Ensuring clauses have effect after the contract has ended 
+Clause 1 to 7 shall continue to have effect after the termination or completion of the agreement. 
+ 
+Explanation : 
+Even though contracts should normally provide for all personal data to be returned at the end of the 
+agreement or be destroyed, it is wise to ensure that, should any personal data inadvertently remain with 
+the contractor, the protection that existed during the agreement continues to have effect after the 
+agreement has ended. In addition, where a breach comes to light after the agreement has ended, the 
+relevant clauses should also continue to apply. 
+ 
+9. Sub-contracting 
+ 
+In an event that sub-contracting is necessary, written authority from Ngee Ann Polytechnic has to be 
+obtained before data can be disclosed. There should be an agreement between the contractor and sub-
+contractor to ensure that protection of personal data. 
+ 
+10. Secure erasure/destruction of data upon completion of the contract 
+ 
+Upon completion of the contract, the Contractor shall return all materials received or generated under 
+this Contract (including approved photocopied materials) and perform secure erasure/destruction of 
+data.  "
+,
+    "file": "fixtures/gsf/rpa-without-comments.pdf",
+  },
+]
+`;

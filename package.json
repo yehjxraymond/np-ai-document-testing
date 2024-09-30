@@ -1,0 +1,22 @@
+{
+  "name": "ai-document-testing",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "DEBUG=aesir:* bun run src/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.3.3",
+    "@langchain/openai": "^0.3.2",
+    "debug": "^4.3.7",
+    "dotenv": "^16.4.5",
+    "mammoth": "^1.8.0",
+    "pdf-parse": "^1.1.1"
+  }
+}
