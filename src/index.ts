@@ -10,6 +10,7 @@ import {
 } from "./workflow";
 import { END, START } from "@langchain/langgraph";
 import { buildToolNode } from "./tool";
+import { buildTestWorkflow } from "./buildTestWorkflow";
 
 const initialSystemMessage =
   new SystemMessage(`You are a finance manager in a Singapore government agency helping to perform checks on procurement documents before they are signed off. The document submitted can include:
@@ -38,17 +39,17 @@ Steps:
 - Use the tool "job-reporter" to report the status, remarks and observations of the test after analyzing the document directly.
 `;
 
-const placeholderReporterTool = buildJobReporterTool("placeholder");
-const placeholderTestNode = await buildAgentNode({
-  llm: gpt4o,
-  tools: [placeholderReporterTool],
-  systemMessage: placeholderTestSystemMessage,
-  name: "placeholder",
-});
-const placeholderToolNode = await buildToolNode({
-  tools: [placeholderReporterTool],
-  name: "placeholderToolNode",
-});
+// const placeholderReporterTool = buildJobReporterTool("placeholder");
+// const placeholderTestNode = await buildAgentNode({
+//   llm: gpt4o,
+//   tools: [placeholderReporterTool],
+//   systemMessage: placeholderTestSystemMessage,
+//   name: "placeholder",
+// });
+// const placeholderToolNode = await buildToolNode({
+//   tools: [placeholderReporterTool],
+//   name: "placeholderToolNode",
+// });
 
 const docs = await loadMultipleDocuments([
   "fixtures/gsf/rpa-without-comments.pdf",
@@ -58,22 +59,32 @@ const initialUserMessage =
   `Please evaluate the following documents thoroughly:` +
   docs.map((doc) => `${doc.file}:\n<Document>${doc.content}</Document>\n\n`);
 
-const workflow = buildWorkflow()
-  .addNode("placeholderTestNode", placeholderTestNode)
-  .addNode("placeholderTestTool", placeholderToolNode)
-  .addEdge(START, "placeholderTestNode")
-  .addEdge("placeholderTestTool", END)
-  .addConditionalEdges("placeholderTestNode", agentConditionalEdge, {
-    [EDGE_INSTRUCTIONS.CALL_TOOL]: "placeholderTestTool",
-    [EDGE_INSTRUCTIONS.PREFIX_TASK_COMPLETED]: END,
-    [EDGE_INSTRUCTIONS.PREFIX_TASK_FAILED]: END,
-    [EDGE_INSTRUCTIONS.CONTINUE]: "placeholderTestNode",
-  })
-  
-  .compile();
+// const precompiledWorkflow = buildWorkflow()
+//   .addNode("placeholderTestNode", placeholderTestNode)
+//   .addNode("placeholderTestTool", placeholderToolNode)
+//   .addEdge(START, "placeholderTestNode")
+//   .addEdge("placeholderTestTool", END)
+//   .addConditionalEdges("placeholderTestNode", agentConditionalEdge, {
+//     [EDGE_INSTRUCTIONS.CALL_TOOL]: "placeholderTestTool",
+//     [EDGE_INSTRUCTIONS.PREFIX_TASK_COMPLETED]: END,
+//     [EDGE_INSTRUCTIONS.PREFIX_TASK_FAILED]: END,
+//     [EDGE_INSTRUCTIONS.CONTINUE]: "placeholderTestNode",
+//   })
+// const workflow = precompiledWorkflow.compile();
+
+// await workflow.invoke({
+//   messages: [initialSystemMessage, new HumanMessage(initialUserMessage)],
+// });
+
+// What I define
+// 1. Test name, ie placeholder
+// 2. System message
+
+// What I get
+// 1. connected graph
+
+const workflow = await buildTestWorkflow();
 
 await workflow.invoke({
   messages: [initialSystemMessage, new HumanMessage(initialUserMessage)],
 });
-
-

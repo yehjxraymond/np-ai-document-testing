@@ -32,7 +32,7 @@ export const buildJobReporterTool = (testName: string) =>
         .optional(),
     }),
     func: async ({ status, remarks, observations }) => {
-      console.log(`Test Name: ${testName}`);
+      console.log(`=============== Test: ${testName} ===============`);
       console.log(`Status: ${status}`);
       console.log(`Remarks: ${remarks}`);
       console.log(`Observations: ${JSON.stringify(observations, null, 2)}`);
