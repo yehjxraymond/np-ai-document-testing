@@ -14,5 +14,6 @@ const initialUserMessage =
 
 
 const testManager = new TestManager();
+await testManager.initialize()
 await executeParallelWorkflows(initialUserMessage, testManager);
 testManager.printTestReports();

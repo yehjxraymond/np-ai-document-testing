@@ -1,5 +1,5 @@
-import mpsiCodeTest from "./documentTest/appropriate-mpsi-code";
-import placeholderTest from "./documentTest/placeholder-presence";
+import { promises as fs } from "fs";
+import path from "path";
 
 export interface TestDefinition {
   name: string;
@@ -18,14 +18,31 @@ export interface TestReport {
 }
 
 export class TestManager {
-  tests: TestDefinition[];
+  tests: TestDefinition[] = [];
+  private initialized = false;
   private testReports: TestReport[] = [];
 
-  constructor() {
-    this.tests = [mpsiCodeTest, placeholderTest];
+  async initialize() {
+    const testsDir = path.join(__dirname, "./documentTest");
+    const files = await fs.readdir(testsDir);
+
+    for (const file of files) {
+      if (file.endsWith(".ts")) {
+        const testModule = await import(path.join(testsDir, file));
+        this.tests.push(testModule.default);
+      }
+    }
+    this.initialized = true;
+  }
+
+  requireInitialization() {
+    if (!this.initialized) {
+      throw new Error("TestManager is not initialized");
+    }
   }
 
   reportTest({ id, status, remarks, observations }: TestReport) {
+    this.requireInitialization();
     console.log(`=============== Test: ${id} ===============`);
     console.log(`Status: ${status}`);
     console.log(`Remarks: ${remarks}`);
@@ -35,6 +52,7 @@ export class TestManager {
   }
 
   printTestReports() {
+    this.requireInitialization();
     console.log(this.testReports);
   }
 }
