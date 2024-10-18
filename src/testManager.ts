@@ -53,6 +53,7 @@ export class TestManager {
 
   printTestReports() {
     this.requireInitialization();
-    console.log(this.testReports);
+    console.log("Final Test Report:");
+    console.log(JSON.stringify(this.testReports, null, 2));
   }
 }

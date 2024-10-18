@@ -2,7 +2,10 @@ import { DynamicStructuredTool } from "@langchain/core/tools";
 import { z } from "zod";
 import type { TestManager } from "../testManager";
 
-export const buildJobReporterTool = (testName: string, testManager: TestManager) =>
+export const buildJobReporterTool = (
+  testName: string,
+  testManager: TestManager
+) =>
   new DynamicStructuredTool({
     verboseParsingErrors: true,
     name: "job-reporter",
@@ -17,7 +20,9 @@ export const buildJobReporterTool = (testName: string, testManager: TestManager)
           z.object({
             observed: z
               .string()
-              .describe("The observation from the document, verbatim"),
+              .describe(
+                "The observation from the document, verbatim. The purpose is to allow user to search for this section in the document."
+              ),
             suggested: z
               .string()
               .describe("The suggested change for the document")
